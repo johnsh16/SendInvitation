@@ -1,0 +1,11 @@
+{
+  "name": "sendinvitation",
+  "version": "1.0.0",
+  "description": "The aim of this project is to show the \"after\" phase of an online interaction with an interested party.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
