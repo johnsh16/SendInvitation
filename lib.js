@@ -1,6 +1,7 @@
 const sgMail = require('@sendgrid/mail')
 sgMail.setApiKey(process.env.SENDGRID_API_KEY)
 
+
 function sendInvite (props) {
     const msg = {
         to: props.email, // Change to your recipient

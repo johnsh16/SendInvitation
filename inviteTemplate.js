@@ -14,3 +14,5 @@ class Invite {
         )
     }
 }
+
+exports.Invite = Invite
