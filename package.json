@@ -4,8 +4,19 @@
   "description": "The aim of this project is to show the \"after\" phase of an online interaction with an interested party.",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.6.1",
+    "axios": "^0.26.0",
+    "browserify": "^17.0.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongodb": "^4.4.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15"
+  }
 }
